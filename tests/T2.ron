@@ -1,0 +1,1455 @@
+(
+    show_hierarchy: None,
+    show_menu: None,
+    show_ticks: None,
+    show_toolbar: Some(false),
+    show_tooltip: None,
+    show_overview: None,
+    show_statusbar: None,
+    align_names_right: None,
+    show_variable_indices: None,
+    show_variable_direction: None,
+    show_empty_scopes: None,
+    show_parameters_in_scopes: None,
+    waves: Some((
+        source: File("test_outputs/T2.vcd"),
+        format: Vcd,
+        active_scope: Some(WaveScope((
+            strs: [
+                "UUT",
+                "registers",
+            ],
+        ))),
+        displayed_items_order: [
+            (26),
+            (25),
+            (28),
+            (29),
+            (27),
+            (30),
+            (33),
+            (31),
+            (32),
+            (48),
+            (47),
+            (61),
+            (73),
+            (35),
+            (37),
+            (38),
+            (21),
+            (22),
+            (60),
+            (34),
+            (51),
+            (50),
+            (52),
+            (59),
+            (24),
+            (23),
+            (41),
+            (76),
+            (77),
+            (78),
+            (79),
+            (62),
+            (111),
+            (112),
+            (113),
+            (66),
+            (75),
+            (105),
+            (106),
+            (68),
+            (70),
+            (71),
+            (72),
+            (82),
+            (83),
+            (80),
+            (81),
+            (84),
+            (85),
+            (91),
+            (110),
+            (109),
+            (64),
+            (36),
+            (87),
+            (95),
+            (88),
+            (96),
+            (99),
+            (89),
+            (104),
+            (101),
+            (102),
+            (90),
+            (107),
+            (92),
+            (93),
+            (94),
+            (116),
+            (114),
+            (115),
+            (117),
+            (100),
+            (118),
+            (119),
+            (120),
+            (122),
+            (123),
+            (121),
+            (124),
+            (86),
+        ],
+        displayed_items: {
+            (68): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "RCKE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RCKE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (112): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                        ],
+                    ),
+                    name: "IC_Addr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "IC_Addr [24:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (64): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (29): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashDriverSlinkyAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashDriverSlinkyAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (34): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashProgDetected",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashProgDetected",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (113): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                        ],
+                    ),
+                    name: "IC_WRD",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "IC_WRD [7:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (24): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FOE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FOE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (73): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                        ],
+                    ),
+                    name: "CLK",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "CLK",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (70): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "nRAS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nRAS",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (62): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (61): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (26): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashCommand",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashCommand [7:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (36): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "InitDone",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "InitDone",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (28): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashDriverAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashDriverAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (118): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "registers",
+                        ],
+                    ),
+                    name: "AddrLWR",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "AddrLWR",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (76): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "flash",
+                        ],
+                    ),
+                    name: "nFCS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nFCS",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (106): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "CS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "…ram.CS [2:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (78): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "flash",
+                        ],
+                    ),
+                    name: "DI",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "DI",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (77): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "flash",
+                        ],
+                    ),
+                    name: "FCK",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FCK",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (119): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "registers",
+                        ],
+                    ),
+                    name: "AddrMWR",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "AddrMWR",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (27): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashDriverRFAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashDriverRFAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (114): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "nDinOE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nDinOE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (79): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "flash",
+                        ],
+                    ),
+                    name: "DO",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "DO [1:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (23): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FCKEN",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FCKEN",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (90): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "RAMRef",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RAMRef",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (66): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (93): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "RAMWR",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RAMWR",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (92): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "RAMRD",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RAMRD",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (81): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "DQMH",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "DQMH",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (21): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "CS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "…ic.CS [12:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (82): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "RBA",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RBA [1:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (109): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "RDout",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RDout [7:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (120): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "registers",
+                        ],
+                    ),
+                    name: "AddrHWR",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "AddrHWR",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (121): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "registers",
+                        ],
+                    ),
+                    name: "BankWR",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "BankWR",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (89): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "S",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "S [4:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (99): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "PHI0rise",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "PHI0rise",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (86): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (41): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "MOSIOE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "MOSIOE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (80): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "DQML",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "DQML",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (59): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (32): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashImageRF8MBAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashImageRF8MBAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (31): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashImageRF1MBAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashImageRF1MBAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (83): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "RA",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RA [12:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (95): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                        ],
+                    ),
+                    name: "CLK",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "CLK",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (102): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "nWE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nWE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (101): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "nDEVSEL",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nDEVSEL",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (105): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "RS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RS [2:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (30): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashImageAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashImageAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (47): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "RAMDriverAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RAMDriverAddr [24:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (110): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "WRDLE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "WRDLE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (52): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "SetSize",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "SetSize [1:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (111): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                        ],
+                    ),
+                    name: "IC_RAMCmd",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "IC_RAMCmd [2:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (84): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "RDOE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RDOE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (123): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "registers",
+                        ],
+                    ),
+                    name: "Addr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "Addr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (94): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "BDoutLE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "BDoutLE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (37): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "LS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "LS [12:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (72): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "nRWE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nRWE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (88): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                        ],
+                    ),
+                    name: "PHI0",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "PHI0",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (116): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "BDOE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "BDOE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (104): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "nIOSEL",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nIOSEL",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (51): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "SetRestoreEN",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "SetRestoreEN",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (60): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (50): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "SetRamFactorEN",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "SetRamFactorEN",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (115): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "nDoutOE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nDoutOE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (107): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "ROMRD",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ROMRD",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (117): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (38): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "LSTC",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "LSTC",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (71): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "nCAS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "nCAS",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (75): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                        ],
+                    ),
+                    name: "RCLK",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RCLK",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (91): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ram",
+                        ],
+                    ),
+                    name: "RDDLE",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RDDLE",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (33): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashImageSlinky1MBAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashImageSlinky1MBAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (122): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "registers",
+                        ],
+                    ),
+                    name: "AddrInc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "AddrInc",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (48): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "RAMImageAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RAMImageAddr [24:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (100): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "bi",
+                        ],
+                    ),
+                    name: "RegReset",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RegReset",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (35): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "IS",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "IS [3:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (25): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "FlashAddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "FlashAddr [23:0]",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (124): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "registers",
+                        ],
+                    ),
+                    name: "Bank",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "Bank",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+            (87): Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            (22): Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "UUT",
+                            "ic",
+                        ],
+                    ),
+                    name: "CSTC",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "CSTC",
+                display_name_type: Unique,
+                manual_name: None,
+                format: None,
+                field_formats: [],
+            )),
+        },
+        display_item_ref_counter: 124,
+        viewports: [
+            (
+                curr_left: (-0.2),
+                curr_right: (1.2),
+                target_left: (0.0),
+                target_right: (1.0),
+                move_start_left: (0.0),
+                move_start_right: (1.0),
+                move_duration: None,
+                move_strategy: Instant,
+            ),
+        ],
+        cursor: Some((1, [
+            627217668,
+            125,
+        ])),
+        markers: {},
+        focused_item: Some((76)),
+        focused_transaction: (None, None),
+        selected_items: [],
+        default_variable_name_type: Unique,
+        scroll_offset: 0.0,
+        display_variable_indices: true,
+        graphics: {},
+    )),
+    drag_started: false,
+    drag_source_idx: None,
+    drag_target_idx: Some((76)),
+    previous_waves: None,
+    count: None,
+    blacklisted_translators: [],
+    show_about: false,
+    show_keys: false,
+    show_gestures: false,
+    show_quick_start: false,
+    show_license: false,
+    show_performance: false,
+    show_logs: false,
+    show_cursor_window: false,
+    wanted_timeunit: PicoSeconds,
+    time_string_format: None,
+    show_url_entry: false,
+    variable_name_filter_focused: false,
+    variable_name_filter_type: Fuzzy,
+    variable_name_filter_case_insensitive: true,
+    rename_target: None,
+    sidepanel_width: Some(300.0),
+    ui_zoom_factor: None,
+)
